@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
+
+	<deployment>
+		<dependencies>
+			<module name="org.codehaus.jackson.jackson-core-asl" />
+ 	  		<module name="org.codehaus.jackson.jackson-mapper-asl"/>
+			<module name="org.apache.httpcomponents" />
+			<module name="javax.servlet.api" export="true" />
+			<module name="org.apache.log4j" />
+		</dependencies>
+	</deployment>
+
+</jboss-deployment-structure>
